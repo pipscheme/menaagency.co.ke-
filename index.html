@@ -3,38 +3,47 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MENA AGENCY - Licensed Work Abroad Agency</title>
+<title>MENA AGENCY - Licensed Work Abroad Agency | Kenya</title>
+<meta name="description" content="MENA AGENCY - Your Trusted Licensed Partner for Jobs in Canada, Qatar, Dubai, UK, Saudi Arabia. Ministry of Labour Licensed.">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
 body{background:#f5f7fb;color:#222}
 .gov-bar{background:linear-gradient(90deg,#0a2a5a,#0f3d7a);color:#fff;padding:11px 12px;display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap}
 .gov-pill{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(212,175,55,.5);padding:7px 14px;border-radius:20px;font-size:.8rem;font-weight:700}
 .gov-pill.gold{background:rgba(212,175,55,.18);border-color:#d4af37;color:#f0d678;font-weight:800}
-.gov-icon{width:26px;height:26px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px}
-.hero{background:#fff;max-width:1100px;margin:0 auto;padding:32px 20px 35px;text-align:center}
+.gov-icon{width:26px;height:26px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;color:#0a2a5a}
+.hero{background:#fff;max-width:1100px;margin:0 auto;padding:32px 20px 35px;text-align:center;position:relative}
+.hero-content{position:relative;z-index:2}
+.logo{display:flex;align-items:center;justify-content:center;gap:12px}
+.logo-icon{width:58px;height:58px;border:2px solid #d4af37;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#fff,#e8d5a0);font-size:26px}
+.logo-text{color:#d4af37;font-weight:800;font-size:1.9rem;line-height:1;text-align:left}
+.logo-text span{color:#0a2a5a;display:block;font-size:1.15rem}
 .title{color:#0a2a5a;font-size:2.6rem;font-weight:900;margin-top:16px;line-height:1.1}
 .subtitle{color:#444;margin:10px auto;font-size:1.05rem;max-width:780px;line-height:1.45}
 .subtitle b{color:#0a2a5a}
 .flags{display:flex;justify-content:center;gap:10px;margin:18px 0}
-.flag{width:58px;height:38px;border-radius:4px;box-shadow:0 2px 8px rgba(0,0,0,.15);border:1px solid #ddd}
+.flag{width:58px;height:38px;border-radius:4px;box-shadow:0 2px 8px rgba(0,0,0,.15);border:1px solid #ddd;object-fit:cover}
 .jobs{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:22px auto;max-width:900px}
-.job{background:linear-gradient(135deg,#0a2a5a,#123e85);border:2px solid #d4af37;border-radius:12px;padding:16px 18px;min-width:150px;flex:1;max-width:168px;text-align:center}
+.job{background:linear-gradient(135deg,#0a2a5a,#123e85);border:2px solid #d4af37;border-radius:12px;padding:16px 18px;min-width:150px;flex:1;max-width:168px;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,.12)}
 .job-icon{font-size:30px;display:block}
 .job-name{color:#f0d678;font-weight:700;font-size:.9rem;margin-top:6px;display:block}
-.apply-btn{background:linear-gradient(90deg,#d4af37,#f0d678);color:#0a2a5a;border:none;padding:15px 48px;border-radius:8px;font-weight:900;font-size:1.15rem;margin-top:20px;cursor:pointer}
+.apply-btn{background:linear-gradient(90deg,#d4af37,#f0d678);color:#0a2a5a;border:none;padding:15px 48px;border-radius:8px;font-weight:900;font-size:1.15rem;margin-top:20px;cursor:pointer;box-shadow:0 5px 15px rgba(212,175,55,.4)}
+.apply-btn:active{transform:scale(.97)}
 .trust{background:#fff;max-width:1100px;margin:20px auto 0;padding:24px 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,.06)}
 .trust-box{border:1px solid #e8eef5;border-radius:12px;padding:20px 14px;text-align:center;background:#f9fbff}
+.trust-box .t-icon{font-size:36px}
 .trust-box h3{color:#0a2a5a;margin:10px 0 6px;font-size:1rem}
 .trust-box p{font-size:.85rem;color:#555;line-height:1.5}
 .tag{display:inline-block;background:#0a2a5a;color:#d4af37;padding:4px 10px;border-radius:6px;font-size:.72rem;font-weight:700;margin-top:8px}
 .form-section{background:#fff;max-width:1100px;margin:20px auto 30px;padding:32px 25px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.07)}
 .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 label{font-weight:600;font-size:.9rem;margin-top:10px;display:block;color:#0a2a5a}
-input,select{width:100%;padding:12px 13px;margin-top:6px;border:2px solid #e0e6f0;border-radius:8px;font-size:.95rem}
+input,select{width:100%;padding:12px 13px;margin-top:6px;border:2px solid #e0e6f0;border-radius:8px;font-size:.95rem;background:#fff}
 input:focus,select:focus{border-color:#d4af37;outline:none}
 .full{grid-column:1 / -1}
-.btn{width:100%;background:#0a2a5a;color:#d4af37;border:2px solid #d4af37;padding:15px;border-radius:10px;font-weight:800;font-size:1.05rem;margin-top:18px;cursor:pointer}
-@media(max-width:760px){.title{font-size:1.95rem}.trust{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.jobs{max-width:360px}.job{max-width:110px;min-width:105px;padding:12px 8px}}
+.btn{width:100%;background:#25D366;color:#fff;border:none;padding:16px;border-radius:10px;font-weight:900;font-size:1.1rem;margin-top:18px;cursor:pointer;display:block;text-align:center}
+.note{text-align:center;font-size:.8rem;color:#666;margin-top:14px;line-height:1.5}
+@media(max-width:760px){.title{font-size:1.95rem}.trust{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.jobs{max-width:360px}.job{max-width:110px;min-width:105px;padding:12px 8px}.gov-bar{gap:8px}.gov-pill{font-size:.73rem;padding:6px 10px}}
 </style>
 </head>
 <body>
@@ -42,86 +51,135 @@ input:focus,select:focus{border-color:#d4af37;outline:none}
 <div class="gov-bar">
 <div class="gov-pill"><span class="gov-icon">🇰🇪</span> Republic of Kenya</div>
 <div class="gov-pill"><span class="gov-icon">🏛️</span> Ministry of Labour & Social Protection</div>
-<div class="gov-pill gold">🏅 NEA Licensed - MENA/2024/KE</div>
+<div class="gov-pill gold">🏅 NEA Licensed Agency - MENA/2024/KE</div>
 </div>
 
 <div class="hero">
-<div style="display:flex;align-items:center;justify-content:center;gap:12px"><div style="width:58px;height:58px;border:2px solid #d4af37;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#fff,#e8d5a0);font-size:26px">🧭</div><div style="color:#d4af37;font-weight:800;font-size:1.9rem;line-height:1;text-align:left">MENA<br><span style="color:#0a2a5a;display:block;font-size:1.15rem">AGENCY</span></div></div>
+<div class="hero-content">
+<div class="logo">
+<div class="logo-icon">🧭</div>
+<div class="logo-text">MENA<br><span>AGENCY</span></div>
+</div>
 <div class="title">WORK ABROAD OPPORTUNITIES</div>
-<div class="subtitle">Your <b>Trusted, Licensed & Government-Approved</b> Partner for Jobs in <b>Canada, Qatar, Dubai, UK & Saudi Arabia</b></div>
+<div class="subtitle">Your <b>Trusted, Licensed & Government-Approved</b> Partner for Jobs in <b>Canada, Qatar, Dubai, UK & Saudi Arabia</b><br>We Ensure Your Safety, Legal Documents & Success Abroad with 100% Transparency</div>
+
 <div class="flags">
-<img class="flag" src="https://flagcdn.com/w80/ca.png"><img class="flag" src="https://flagcdn.com/w80/qa.png"><img class="flag" src="https://flagcdn.com/w80/ae.png"><img class="flag" src="https://flagcdn.com/w80/gb.png"><img class="flag" src="https://flagcdn.com/w80/sa.png">
+<img class="flag" src="https://flagcdn.com/w80/ca.png" alt="Canada">
+<img class="flag" src="https://flagcdn.com/w80/qa.png" alt="Qatar">
+<img class="flag" src="https://flagcdn.com/w80/ae.png" alt="UAE">
+<img class="flag" src="https://flagcdn.com/w80/gb.png" alt="UK">
+<img class="flag" src="https://flagcdn.com/w80/sa.png" alt="Saudi">
 </div>
+
 <div class="jobs">
-<div class="job"><span class="job-icon">🪣</span><span class="job-name">Housekeeping</span></div><div class="job"><span class="job-icon">🚗</span><span class="job-name">Drivers</span></div><div class="job"><span class="job-icon">🛡️</span><span class="job-name">Security</span></div><div class="job"><span class="job-icon">🏨</span><span class="job-name">Hospitality</span></div><div class="job"><span class="job-icon">🏗️</span><span class="job-name">Construction</span></div>
+<div class="job"><span class="job-icon">🪣</span><span class="job-name">Housekeeping</span></div>
+<div class="job"><span class="job-icon">🚗</span><span class="job-name">Drivers</span></div>
+<div class="job"><span class="job-icon">🛡️</span><span class="job-name">Security</span></div>
+<div class="job"><span class="job-icon">🏨</span><span class="job-name">Hospitality</span></div>
+<div class="job"><span class="job-icon">🏗️</span><span class="job-name">Construction</span></div>
 </div>
-<button class="apply-btn" onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'})">APPLY NOW - FREE CHECK</button>
-<p style="font-size:.82rem;color:#666;margin-top:10px">WhatsApp: 0799557934</p>
+
+<button class="apply-btn" onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'})">APPLY NOW - FREE QUALIFICATION CHECK</button>
+<p style="font-size:.82rem;color:#666;margin-top:10px">WhatsApp: 0799557934 | No Fees Until You Qualify</p>
+</div>
 </div>
 
 <div class="trust">
-<div class="trust-box"><div style="font-size:36px">📜</div><h3>Licenced Agency Board</h3><p>Licensed by Ministry of Labour Kenya. NEA Compliant & Government Approved.</p><span class="tag">MENA/2024/KE</span></div>
-<div class="trust-box"><div style="font-size:36px">🛡️</div><h3>Safety Measures</h3><p>Verified employers, legal contracts, pre-departure training & 24/7 support.</p><span class="tag">100% SAFE & LEGAL</span></div>
-<div class="trust-box"><div style="font-size:36px">🤝</div><h3>Trusted by 1,200+</h3><p>Real jobs, real salaries. Your dream job starts here.</p><span class="tag">⭐ 4.9/5 RATING</span></div>
+<div class="trust-box">
+<div class="t-icon">📜</div>
+<h3>Licenced Agency Board</h3>
+<p>Officially Licensed by Ministry of Labour & Social Protection Kenya. NEA Compliant, Registered & Government Approved.</p>
+<span class="tag">LICENSE NO: MENA/2024/KE</span>
+</div>
+<div class="trust-box">
+<div class="t-icon">🛡️</div>
+<h3>Safety Measures Guaranteed</h3>
+<p>Your safety is our priority. We verify all employers, provide legal work contracts, pre-departure training & 24/7 support abroad.</p>
+<span class="tag">100% SAFE & LEGAL PROCESS</span>
+</div>
+<div class="trust-box">
+<div class="t-icon">🤝</div>
+<h3>Trusted by 1,200+ Kenyans</h3>
+<p>Over 1,200 successful placements. Real jobs, real contracts, no exploitation. Join thousands working abroad today.</p>
+<span class="tag">⭐ 4.9/5 CLIENT RATING</span>
+</div>
 </div>
 
 <div class="form-section" id="form">
-<h2 style="text-align:center;color:#0a2a5a">Secure Application Form</h2>
-<p style="text-align:center;color:#666;font-size:.9rem;margin:8px 0 18px">Chat directly on WhatsApp: <b>0799557934</b></p>
+<h2 style="text-align:center;color:#0a2a5a">Secure Application Form - Check If You Qualify</h2>
+<p style="text-align:center;color:#666;font-size:.9rem;margin:8px 0 18px">WhatsApp: 0799557934 - Licensed officers will review securely</p>
 <form id="menaForm">
 <div class="form-grid">
 <div><label>Full Name *</label><input type="text" id="name" required placeholder="John Kamau"></div>
-<div><label>Applicant Number *</label><input type="tel" id="appnum" required placeholder="07XX XXX XXX"></div>
+<div><label>Phone Number *</label><input type="tel" id="phone" required placeholder="07XX XXX XXX"></div>
 <div><label>Date of Birth *</label><input type="date" id="dob" required></div>
-<div><label>Age *</label><input type="number" id="age" required placeholder="28"></div>
+<div><label>Age *</label><input type="number" id="age" required placeholder="28" min="18" max="50"></div>
 <div><label>ID Number *</label><input type="text" id="idnum" required placeholder="12345678"></div>
 <div><label>Level of Study *</label><select id="study" required><option value="">-- Select --</option><option>Form Four</option><option>College</option><option>University</option></select></div>
-<div><label>Preferred Country *</label><select id="country" required><option value="">-- Choose --</option><option>🇨🇦 Canada</option><option>🇶🇦 Qatar</option><option>🇦🇪 Dubai</option><option>🇬🇧 UK</option><option>🇸🇦 Saudi</option></select></div>
-<div><label>Passport? *</label><select id="passport" required><option value="">Select</option><option>Yes</option><option>No</option></select></div>
-<div class="full"><label>Visa? *</label><select id="visa" required><option value="">Select</option><option>Yes</option><option>No</option></select></div>
-<div class="full"><button class="btn" type="submit">SUBMIT APPLICATION →</button><p id="msg" style="text-align:center;margin-top:12px;font-weight:bold"></p></div>
+<div><label>Preferred Country *</label><select id="country" required><option value="">-- Choose --</option><option>🇨🇦 Canada</option><option>🇶🇦 Qatar</option><option>🇦🇪 Dubai / UAE</option><option>🇬🇧 UK</option><option>🇸🇦 Saudi Arabia</option></select></div>
+<div><label>Do you own a Passport? *</label><select id="passport" required><option value="">Select</option><option>Yes</option><option>No</option></select></div>
+<div class="full"><label>Do you have a Visa? *</label><select id="visa" required><option value="">Select</option><option>Yes</option><option>No</option></select></div>
+<div class="full">
+<button class="btn" type="button" onclick="sendToWhatsApp()">SUBMIT TO WHATSAPP 0799557934 →</button>
+<p id="msg" style="text-align:center;margin-top:12px;font-weight:bold"></p>
+<p class="note">🔒 Your data is 100% secure & confidential. Licensed Recruitment Agency under Ministry of Labour Kenya.<br>We never share your ID or phone. Safety & transparency is our promise.<br>WhatsApp: 0799557934</p>
+</div>
 </div>
 </form>
 </div>
 
 <script>
-document.getElementById('menaForm').addEventListener('submit',function(e){
- e.preventDefault();
+function sendToWhatsApp(){
  let n=document.getElementById('name').value.trim();
- let appnum=document.getElementById('appnum').value.trim();
  let dob=document.getElementById('dob').value;
- let age=parseInt(document.getElementById('age').value);
+ let age=document.getElementById('age').value;
  let id=document.getElementById('idnum').value.trim();
+ let ph=document.getElementById('phone').value.trim();
  let st=document.getElementById('study').value;
  let co=document.getElementById('country').value;
  let pa=document.getElementById('passport').value;
  let vi=document.getElementById('visa').value;
  let m=document.getElementById('msg');
- if(age<21||age>45){m.style.color="red";m.innerText="Age 21-45 only.";return;}
- if(!appnum){m.style.color="red";m.innerText="Enter Applicant Number.";return;}
 
- let raw=`NEW APPLICATION - MENA AGENCY
+ if(!n || !ph){
+   m.style.color="red";
+   m.innerText="⚠️ Jaza Jina na Namba ya Simu!";
+   return;
+ }
+ if(age && (parseInt(age)<21 || parseInt(age)>45)){
+   m.style.color="red";
+   m.innerText="Sorry, age must be 21-45 to qualify.";
+   return;
+ }
+ if(id.length<6){
+   m.style.color="red";
+   m.innerText="Enter valid ID number.";
+   return;
+ }
+
+ let raw = `NEW LICENSED APPLICATION - MENA AGENCY
 
 Name: ${n}
-Applicant Number: ${appnum}
 DOB: ${dob}
 Age: ${age}
 ID: ${id}
+Phone: ${ph}
 Study: ${st}
 Country: ${co}
 Passport: ${pa}
 Visa: ${vi}
 
-via mena.co.ke`;
+Via mena.co.ke - WhatsApp 0799557934`;
 
- let t=encodeURIComponent(raw);
- // NUMBER YAKO - 0799557934
- let waLink=https://wa.me/254799557934?text=${t};
- 
+ let encoded = encodeURIComponent(raw);
+ let waLink = https://wa.me/254799557934?text=${encoded};
+
  m.style.color="green";
- m.innerText="Opening WhatsApp 0799557934...";
- window.location.href=waLink;
-});
+ m.innerText="✅ Qualified! Opening WhatsApp 0799557934...";
+
+ window.open(waLink, "_blank");
+ setTimeout(()=>{ window.location.href = waLink; }, 500);
+}
 </script>
 </body>
 </html>

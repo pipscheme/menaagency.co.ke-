@@ -56,7 +56,7 @@ input:focus,select:focus{border-color:#d4af37;outline:none}
 <div class="job"><span class="job-icon">🪣</span><span class="job-name">Housekeeping</span></div><div class="job"><span class="job-icon">🚗</span><span class="job-name">Drivers</span></div><div class="job"><span class="job-icon">🛡️</span><span class="job-name">Security</span></div><div class="job"><span class="job-icon">🏨</span><span class="job-name">Hospitality</span></div><div class="job"><span class="job-icon">🏗️</span><span class="job-name">Construction</span></div>
 </div>
 <button class="apply-btn" onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'})">APPLY NOW - FREE CHECK</button>
-<p style="font-size:.82rem;color:#666;margin-top:10px">Official Support: @menacustomersupport01</p>
+<p style="font-size:.82rem;color:#666;margin-top:10px">WhatsApp: 0799557934</p>
 </div>
 
 <div class="trust">
@@ -67,7 +67,7 @@ input:focus,select:focus{border-color:#d4af37;outline:none}
 
 <div class="form-section" id="form">
 <h2 style="text-align:center;color:#0a2a5a">Secure Application Form</h2>
-<p style="text-align:center;color:#666;font-size:.9rem;margin:8px 0 18px">Chat directly with <b>@menacustomersupport01</b></p>
+<p style="text-align:center;color:#666;font-size:.9rem;margin:8px 0 18px">Chat directly on WhatsApp: <b>0799557934</b></p>
 <form id="menaForm">
 <div class="form-grid">
 <div><label>Full Name *</label><input type="text" id="name" required placeholder="John Kamau"></div>
@@ -79,7 +79,7 @@ input:focus,select:focus{border-color:#d4af37;outline:none}
 <div><label>Preferred Country *</label><select id="country" required><option value="">-- Choose --</option><option>🇨🇦 Canada</option><option>🇶🇦 Qatar</option><option>🇦🇪 Dubai</option><option>🇬🇧 UK</option><option>🇸🇦 Saudi</option></select></div>
 <div><label>Passport? *</label><select id="passport" required><option value="">Select</option><option>Yes</option><option>No</option></select></div>
 <div class="full"><label>Visa? *</label><select id="visa" required><option value="">Select</option><option>Yes</option><option>No</option></select></div>
-<div class="full"><button class="btn" type="submit">SUBMIT TO @menacustomersupport01 →</button><p id="msg" style="text-align:center;margin-top:12px;font-weight:bold"></p></div>
+<div class="full"><button class="btn" type="submit">SUBMIT APPLICATION →</button><p id="msg" style="text-align:center;margin-top:12px;font-weight:bold"></p></div>
 </div>
 </form>
 </div>
@@ -112,16 +112,14 @@ Country: ${co}
 Passport: ${pa}
 Visa: ${vi}
 
-via mena.co.ke to @menacustomersupport01`;
+via mena.co.ke`;
 
  let t=encodeURIComponent(raw);
- // ✅ NUMBER 0799557934 IMEFICHWA HAPA - 254799557934 - CLIENT ATAONA @menacustomersupport01 PEKEE
- let waLink=https://api.whatsapp.com/send?phone=254799557934&text=${t};
+ // NUMBER YAKO - 0799557934
+ let waLink=https://wa.me/254799557934?text=${t};
  
  m.style.color="green";
- m.innerText="✅ Opening chat with @menacustomersupport01...";
- 
- // Inafanya kazi 100% - simu na computer
+ m.innerText="Opening WhatsApp 0799557934...";
  window.location.href=waLink;
 });
 </script>
